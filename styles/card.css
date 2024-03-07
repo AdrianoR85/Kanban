@@ -1,0 +1,40 @@
+.card {
+  box-shadow: 0 2px 2px -1px var(--secondary-color);
+  padding: 1rem;
+  border-radius: .4rem;
+  background-color: var(--card-color);
+  margin-top: 2rem;
+}
+
+.card .status {
+  width: 4rem;
+  height: .8rem;
+  border-radius: .8rem;
+  margin-bottom: 1.6rem;
+}
+
+.card .status.todo {
+  background-color: var(--todo-color);
+}
+
+.card .status.inprogress {
+  background-color: var(--in-progress-color);
+}
+
+.card .status.done {
+  background-color: var(--done-color);
+}
+
+.card .card__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .card__content button {
+  padding: 0;
+  width:1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  font-size: 1.6rem;
+}

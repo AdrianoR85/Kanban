@@ -1,0 +1,21 @@
+.create-task input,
+.create-task button {
+  padding: .8rem;
+  border-radius: .4rem 0 0 .4rem;
+}
+
+.create-task input {
+  width: 30rem;
+}
+
+.create-task button {
+  border-radius: 0 .4rem .4rem 0rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 375px) {
+  .create-task input {
+    width: 20rem;
+  }
+}

@@ -1,0 +1,47 @@
+:root {
+  font-size: 62.5%;
+
+  --todo-color: #ff0;
+  --in-progress-color: #33adff;
+  --done-color: #23d2ac;
+  --delete-btn-color: red;
+  --body-color: #130f0d;
+  --card-color: #1A1A1C;
+  --board-color: #1c1d1f;
+  --primary-color: #fff;
+  --secondary-color: #fd951f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--body-color);
+  color: var(--primary-color);
+  height: 100vh;
+}
+
+button, input {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
